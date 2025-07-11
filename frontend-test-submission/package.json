@@ -1,0 +1,45 @@
+{
+  "name": "frontend-test-submission",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.x.x",
+    "@emotion/styled": "^11.x.x",
+    "@mui/icons-material": "^5.x.x",
+    "@mui/material": "^5.x.x",
+    "@testing-library/jest-dom": "^5.x.x",
+    "@testing-library/react": "^13.x.x",
+    "@testing-library/user-event": "^13.x.x",
+    "dotenv": "^16.x.x",
+    "react": "^18.x.x",
+    "react-dom": "^18.x.x",
+    "react-scripts": "5.x.x",
+    "web-vitals": "^2.x.x"
+    
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+  
+}

@@ -1,0 +1,35 @@
+# Gitignore for a Node.js/React Fullstack Project
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# Build artifacts
+build/
+dist/
+.parcel-cache/
+
+# IDE and OS specific files
+.vscode/ # VS Code settings (optional, you might want to commit some of these)
+.idea/    # IntelliJ IDEA
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Logs
+logs/ # All log directories
+
+# Frontend specific
+frontend-test-submission/build/
+frontend-test-submission/dist/
+
+# Backend specific
+backend-test-submission/logs/
+
+# Logging Middleware specific
+logging-middleware/logs/
+
+# Environment variables (CRITICAL FOR SECURITY)
+.env*
